@@ -36,8 +36,8 @@ To implement a basic lane detection pipeline using OpenCV by completing missing 
 
 ##  Developed By
 
-* **Name:** ASHWIN BAALAJI V K
-* **Register No:** 212225230026
+* **Name:** M BALASURIYA
+* **Register No:** 212224240021
 
 ##  Algorithm & Explanation
 
@@ -56,7 +56,7 @@ import matplotlib.pyplot as plt
 ###  Step 2: Read the Image
 
 ```python
-img = cv2.imread("Screenshot 2026-11-18 103935.png")
+img = cv2.imread("lan_img1.jpg")
 ```
 
 ---
@@ -230,40 +230,47 @@ plt.show()
 
 * Original image
 
-<img width="331" height="236" alt="image" src="https://github.com/user-attachments/assets/512bcbb0-b18a-4403-8151-6e246854ff8f" />
+<img width="270" height="187" alt="image" src="https://github.com/user-attachments/assets/2da5b618-d492-4271-8373-341707519fcd" />
+
 
 
 * Grayscale image
 
-<img width="332" height="233" alt="image" src="https://github.com/user-attachments/assets/31a3ef15-4289-4a28-811a-552f8ea05ffe" />
+<img width="275" height="187" alt="image" src="https://github.com/user-attachments/assets/0842262d-6290-4cb0-9e2f-cd1d41d7fce3" />
+
 
 
 * Thresholded image
 
-<img width="484" height="341" alt="download" src="https://github.com/user-attachments/assets/0117d749-a4c1-46f4-b6a3-d751bdf2e584" />
+<img width="513" height="350" alt="image" src="https://github.com/user-attachments/assets/c0fb5d06-0818-4fed-9d67-4d2ab16e7689" />
+
 
 * ROI masked image
 
-<img width="484" height="341" alt="download" src="https://github.com/user-attachments/assets/65f146e6-91ef-430c-837f-cd193cb370fa" />
+<img width="522" height="322" alt="image" src="https://github.com/user-attachments/assets/5293038a-b439-4b4a-9ccc-b4e7327d559f" />
+
 
 
 * Edge detected image
 
-<img width="484" height="341" alt="download" src="https://github.com/user-attachments/assets/d2151a18-e9e6-425c-abcc-e6b10dbd68ac" />
+<img width="505" height="317" alt="image" src="https://github.com/user-attachments/assets/14fba71e-0f81-4086-a7de-12d9d365caa5" />
+
 
 
 * Smoothed image
 
-<img width="484" height="341" alt="download" src="https://github.com/user-attachments/assets/9af8bec2-5c79-4950-b158-c320d05f97ed" />
+<img width="511" height="322" alt="image" src="https://github.com/user-attachments/assets/6230bb89-8805-4b91-a4bc-28a71cf892d8" />
+
 
 
 * Detected lines
 
-<img width="484" height="341" alt="download" src="https://github.com/user-attachments/assets/28a2577d-3d02-41dc-904f-122c5933e5a9" />
+<img width="507" height="322" alt="image" src="https://github.com/user-attachments/assets/21e3088b-0539-4ee3-a863-1ac55c875963" />
+
 
 * Final lane detection output
 
-<img width="640" height="440" alt="download" src="https://github.com/user-attachments/assets/c9b838c1-6da1-4f6f-8dbc-affcda974b06" />
+<img width="655" height="403" alt="image" src="https://github.com/user-attachments/assets/e67bcb83-8c6a-4303-aef0-f3a62b604b04" />
 
 
 
